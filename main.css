@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contentRows > div.row.purple{
+    background-color: purple;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contentRows > div.row.lightblue{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+}
+
+#contentRows > div.row.lightgreen{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+}
+
+#contentRows > div.row.lightsalmon{
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+}
+
+#contentRows > div.row.pink{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+}
+
+.buttons{
+    background-color: moccasin;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 1% 0% 1%;
+}
+
+#storyGenerator{
+    background-color:moccasin;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#storyGenerator{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+span {
+    margin: 2%;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: small;
+    width: max-content;
+}
+
+.reset-button, .action-button, .story-button {
+    color: white;
+    background-color: #f59e0b;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10% 1%;
+    padding: 10%;
+}
+
+.action-button{
+    color: black;
+    background-color:aquamarine;
+}
+
+.reset-button{
+    background-color:red;
+}
+
+body > div{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    margin: 0% 9.5% 1%;
+    border-radius: 20px;
+}
